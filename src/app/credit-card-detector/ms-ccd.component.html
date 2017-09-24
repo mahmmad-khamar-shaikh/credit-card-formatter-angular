@@ -4,7 +4,7 @@
       <input formControlName="creditInput"
        class="form-control" id="txtCredit" placeholder="Credit Card number" formControlName="creditInfo" type="text" (keydown)="restrictChar($event)" (keyup)="inputFormatter()" (blur)="carImageChooser()">
     </div>
-    <div style="float:right;width:19%;magin-top:5px;">
+    <div style="float:right;width:19%;padding-top:5px;">
       <img height="35px" width="45px" class="img-responsive img-rounded"src={{cardImage}}/>
     </div>
   </form>
