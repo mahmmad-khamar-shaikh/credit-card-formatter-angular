@@ -16,7 +16,7 @@ export class CardDetectorComponent implements OnInit {
   }
   ngOnInit() {
     this.customCredtiCardFormGroup = new FormGroup({
-      creditInfo: new FormControl()
+      creditInfo: new FormControl('test')
     });
   }
   restrictChar(event) {

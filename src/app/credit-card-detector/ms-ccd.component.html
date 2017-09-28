@@ -2,7 +2,7 @@
   <form [formGroup]="customCredtiCardFormGroup">
     <div style="float:left;width:80%;margin-top:5px;">
       <input formControlName="creditInput"
-       class="form-control" id="txtCredit" placeholder="Credit Card number" formControlName="creditInfo" type="text" (keydown)="restrictChar($event)" (keyup)="inputFormatter()" (blur)="carImageChooser()">
+       class="form-control" id="txtCredit"  placeholder="Credit Card number" formControlName="creditInfo" type="text" (keydown)="restrictChar($event)" (keyup)="inputFormatter()" (blur)="carImageChooser()">
     </div>
     <div style="float:right;width:19%;padding-top:5px;">
       <img height="35px" width="45px" class="img-responsive img-rounded"src={{cardImage}}/>
