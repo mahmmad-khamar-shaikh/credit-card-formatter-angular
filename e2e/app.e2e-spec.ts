@@ -9,6 +9,6 @@ describe('sm-credit-card-detector App', () => {
     page.navigateTo();
     console.log('return value to text ->' + page.getParagraphText());
 
-    expect(page.getParagraphText()).toEqual('test');
+    expect(page.getParagraphText()).toBeNull();
   });
 });
